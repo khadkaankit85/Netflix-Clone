@@ -497,7 +497,7 @@ section h1 {
     .section4 {
         flex-direction: column-reverse;
         justify-content: center;
-        height: 26rem;
+        height: 40rem;
     }
 
     /* .section1 {
@@ -652,6 +652,38 @@ section h1 {
 }
 
 @media only screen and (min-width:394px) and (max-width:604px) {
+
+    .section1 .boxLeft,
+    .section3 .boxLeft,
+    .section4 .boxRight {
+        align-items: center;
+
+    }
+
+    .section3 .boxLeft {
+        height: 55vh;
+        width: 79vw;
+        color: white;
+        display: block;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* flex-direction: column; */
+        margin-left: 0px;
+    }
+
+
+
+    .section3 {
+        height: 29rem;
+    }
+
+    .section4 .boxRight {
+        width: 75vw;
+    }
+
+    .section4 {
+        height: 30rem;
+    }
 
     .body {
         width: 99vw;
